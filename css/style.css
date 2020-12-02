@@ -1,0 +1,267 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  line-height: 1.4;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* h1,h2,h3{
+  font-family: 'Sora', sans-serif;
+} */
+
+.hero {
+  min-height: 70vh;
+  background: 
+    linear-gradient(to bottom, rgba(19,19,19,0.8) 30px,rgba(4, 40, 243, 0.26) , rgba(19, 19, 19, 1)) ,
+    url("../img/hero.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.galerija .hero{
+  min-height: 50vh;
+}
+
+.o-nama .hero{
+    background: 
+    linear-gradient(to bottom,  rgba(19,19,19,0.8) 30px, rgba(4, 40, 243, 0.26), rgba(19, 19, 19, 1)) ,
+    url("../img/hero2.jpg");
+    background-position: center;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+  animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation-delay: 0.3s;
+}
+
+ @keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.usluge, .tamno {
+  background: rgb(19, 19, 19);
+  color: rgb(221, 221, 221);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.lista-usluga, .slike-galerije {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  margin-top: 12px;
+}
+
+.usluga {
+  padding: 16px;
+  border-radius: 12px;
+  /* border: 2px solid white; */
+  background: rgb(26, 28, 32);
+}
+
+.usluga p{
+  margin-top: 10px;
+}
+
+.usluga .dugme{
+  width: 100%;
+  text-align: center;
+  margin-top: 18px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.dugme{
+    background:rgb(10, 113, 248);
+    padding: 6px 16px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.meni{
+    position: absolute;
+    top: 0;
+    padding: 15px 25px;
+    width: 100%;
+    /* background: linear-gradient(to top,rgba(19,19,19,0.9) transparent, rgba(19, 19, 19, 0.9)) */
+}
+
+.meni a{
+    margin-right: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about > div{
+    margin-left: -10%;
+    margin-top: 18px;
+}
+
+.about span{
+    background: rgb(10, 113, 248);
+    margin-top: 5px;
+    padding: 4px;
+    line-height: 2;
+    /* display: inline; */
+    /* width: auto; */
+}
+
+.about p{
+    margin-top: 10px;
+}
+
+.about .teze{
+    display: flex;
+    flex-direction: column;
+}
+
+.about img{
+    width: 50%;
+    max-height: 600px;
+}
+
+.slike-galerije img{
+  filter: grayscale(70%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.slike-galerije img:hover{
+  filter: none;
+}
+
+.kontakt label{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.kontakt input{
+  display: block;
+  width: 340px;
+  outline: 0;
+  padding: 10px 15px;
+  border: 0;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}
+
+.kontakt textarea{
+  display: inline-block;
+  border-radius: 8px;
+  width: 340px;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+}
+
+.kontakt .dugme{
+  outline: 0;
+  border: 0; 
+  color: white;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  width: 340px;
+}
+
+.kontakt{
+  display: flex;
+}
+
+.kontakt-slika{
+  width: 50%;
+}
+
+#logo{
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  height: 100px;
+  width: auto;
+}
+
+footer i{
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.odvojeno{
+  display: flex;
+  justify-content: space-between;
+}
+footer a{
+  color: rgb(10, 113, 248);
+}

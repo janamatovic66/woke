@@ -1,0 +1,21 @@
+<rss version="2.0">
+<channel>
+<title>Woke Agency - vesti</title>
+<link>GITHUB_LINK/o-nama.html</link>
+<description>Woke Agency - Saznajte vise o nama!</description>
+<item>
+<title>Ko smo mi?</title>
+<link>GITHUB_LINK/o-autoru</link>
+<description>
+Saznajte vise o autoru
+</description>
+</item>
+<item>
+<title>Naša galerija</title>
+<link>GITHUB_LINK/galerija.html</link>
+<description>
+Pogledajte našu galeriju.
+</description>
+</item>
+</channel>
+</rss>
