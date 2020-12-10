@@ -33,6 +33,13 @@ body {
   min-height: 50vh;
 }
 
+.index .hero{
+  background: 
+    linear-gradient(to bottom,  rgba(19,19,19,0.8) 30px, rgba(4, 40, 243, 0.26), rgba(19, 19, 19, 1)) ,
+    url("../img/hero3.jpg");
+    background-position: center;
+}
+
 .o-nama .hero{
     background: 
     linear-gradient(to bottom,  rgba(19,19,19,0.8) 30px, rgba(4, 40, 243, 0.26), rgba(19, 19, 19, 1)) ,
@@ -163,21 +170,25 @@ img{
 
 .about {
     display: flex;
-    justify-content: space-between;
+    align-items: end;
+    /* justify-content: space-between; */
 }
 
 .about > div{
     margin-left: -10%;
-    margin-top: 18px;
+    margin-top: 24px;
 }
 
 .about > div{
-    background: rgb(10, 113, 248);
+    background: rgba(10, 66, 248, 0.95);
     /* margin-top: 5px; */
     padding: 12px;
+    color: white;
     line-height: 2;
     /* display: inline; */
     /* width: auto; */
+    max-width: 50%;
+    max-height: 500px;
 }
 
 .about p{
@@ -190,8 +201,9 @@ img{
 }
 
 .about img{
-    width: 50%;
+    width: 40%;
     max-height: 600px;
+    object-fit: cover;
 }
 
 .slike-galerije img{
@@ -243,7 +255,7 @@ img{
 
 .kontakt-slika{
   width: 50%;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 
 #logo{
