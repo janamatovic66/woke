@@ -167,14 +167,14 @@ img{
 }
 
 .about > div{
-    margin-left: -10%;
-    margin-top: 18px;
+    /* margin-left: -10%; */
+    /* margin-top: 18px; */
 }
 
-.about span{
+.about > div{
     background: rgb(10, 113, 248);
-    margin-top: 5px;
-    padding: 4px;
+    /* margin-top: 5px; */
+    padding: 12px;
     line-height: 2;
     /* display: inline; */
     /* width: auto; */
@@ -212,7 +212,7 @@ img{
 
 .kontakt input{
   display: block;
-  width: 340px;
+  width: 440px;
   outline: 0;
   padding: 10px 15px;
   border: 0;
@@ -223,7 +223,7 @@ img{
 .kontakt textarea{
   display: inline-block;
   border-radius: 8px;
-  width: 340px;
+  width: 440px;
   padding: 10px 15px;
   font-size: 1.1rem;
 }
@@ -234,7 +234,7 @@ img{
   color: white;
   font-size: 1.1rem;
   padding: 10px 20px;
-  width: 340px;
+  width: 440px;
 }
 
 .kontakt{
@@ -243,6 +243,7 @@ img{
 
 .kontakt-slika{
   width: 50%;
+  margin-right: 25px;
 }
 
 #logo{
@@ -251,6 +252,10 @@ img{
   right: 3%;
   height: 100px;
   width: auto;
+}
+
+footer{
+  font-size: 0.8rem;
 }
 
 footer i{
