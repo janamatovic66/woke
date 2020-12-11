@@ -239,7 +239,13 @@ img{
   padding: 10px 15px;
   font-size: 1.1rem;
 }
-
+.kontakt select {
+  display: inline-block;
+  border-radius: 8px;
+  width: 440px;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+}
 .kontakt .dugme{
   outline: 0;
   border: 0; 
