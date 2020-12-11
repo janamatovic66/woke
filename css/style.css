@@ -224,7 +224,7 @@ img{
 
 .kontakt input{
   display: block;
-  width: 440px;
+  width: 490px;
   outline: 0;
   padding: 10px 15px;
   border: 0;
@@ -235,14 +235,14 @@ img{
 .kontakt textarea{
   display: inline-block;
   border-radius: 8px;
-  width: 440px;
+  width: 490px;
   padding: 10px 15px;
   font-size: 1.1rem;
 }
 .kontakt select {
   display: inline-block;
   border-radius: 8px;
-  width: 440px;
+  width: 490px;
   padding: 10px 15px;
   font-size: 1.1rem;
 }
@@ -252,7 +252,7 @@ img{
   color: white;
   font-size: 1.1rem;
   padding: 10px 20px;
-  width: 440px;
+  width: 490px;
 }
 
 .kontakt{
@@ -261,7 +261,7 @@ img{
 
 .kontakt-slika{
   width: 50%;
-  margin-right: 50px;
+  margin-right: 80px;
 }
 
 #logo{
